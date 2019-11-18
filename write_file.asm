@@ -35,7 +35,7 @@ _main:
     syscall
 
     section .data
-text: db '孙永录'
+text: db 'sylsaint', 10
 filename: db 'name.txt', 0
 format: db '%d', 10
 
